@@ -4,6 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
+Over time I've worked on quite a few software projects, most of which aren't
+worth mentioning and don't have any presence on the internet. But here are
+a few of the longer-lasting and more visible ones.
+
 ### [Daydreamer][]
 Daydreamer is a chess engine, meaning that it's a
 program that knows how to play chess. It uses UCI, a standard text
@@ -14,16 +18,6 @@ strong&mdash;it was ranked around #20 in the world by the [Computer Chess
 Rating List][ccrl] when it was written, though it's drifted down
 somewhat over time. It also plays [Chess960][].
 
-### [Dungeon Crawl Stone Soup][dcss]
-Dungeon Crawl Stone Soup (aka DCSS, or just Crawl), is a [roguelike][]
-game, in the tradition of [Nethack](http://www.nethack.org/) and
-[Angband](http://rephial.org/). But way better. It's a huge program
-whose roots go back well over a decade and which has involved dozens of
-programmers. I started playing the game in the summer of 2011, and since
-then I've started to contribute patches to the game and become the
-maintainer of the Mac port. I also [play online][cao]&mdash;come say hi if
-you see me on [webtiles](http://tiles.crawl.develz.org).
-
 ### [Mallard Bane][]
 Mallard Bane is a robot that plays the classic Nintendo game [Duck Hunt][].
 It doesn't play any dirty tricks like reading out of the game's frame
@@ -33,6 +27,16 @@ always shoots the hell out of the dog, as is right and proper. I made Mallard
 Bane with my good friends [Kevin Pang](http://twitter.com/kevinpang) and 
 [Ian Ferrel](http://twitter.com/ianferrel) as a project for our
 robotics class at [Harvey Mudd College](http://www.hmc.edu/).
+
+### [Dungeon Crawl Stone Soup][dcss]
+Dungeon Crawl Stone Soup (aka DCSS, or just Crawl), is a [roguelike][]
+game, in the tradition of [Nethack](http://www.nethack.org/) and
+[Angband](http://rephial.org/). But way better. It's a huge program
+whose roots go back well over a decade and which has involved dozens of
+programmers. I started playing the game in the summer of 2011, and since
+then I've started to contribute patches to the game and become the
+maintainer of the Mac port. I also [play online][cao]&mdash;come say hi if
+you see me on [webtiles](http://tiles.crawl.develz.org).
 
 ### [Charm++][charm]
 My actual job is working on the Charm++ adaptive runtime system and applications
