@@ -1,0 +1,51 @@
+{% include header.html %}
+<body>
+    <div id="masthead">
+        <h1><a href="/">False Sharing</a></h1>
+        <h2>by Aaron Becker</h2>
+    </div>
+    <div id="nav">
+            <ul>
+                <li><a href="/archive/">Archive</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="/projects/">Projects</a></li>
+                <li><a href="/rss.xml">RSS</a></li>
+            </ul>
+
+                <form method="get" action="http://www.google.com/search">
+                    <input type="text" id="search" class="ti" name="q" value="" />
+                    <input type="hidden" name="q" value="site:falsesharing.com" />
+                    <input type="submit" value="Search" />
+                </form>
+
+            <h3>about me</h3>
+            <p>I'm a PhD candidate in computer science at the 
+              <a href="http://illinois.edu">University of Illinois</a> at Urbana-Champaign.
+              <br/><br/>
+              I work on high performance, scalable software using the
+              <a href="http://charm.cs.illinois.edu">Charm++</a> adaptive runtime system.
+            </p>
+
+            <h3>find me</h3>
+
+            <ul>
+                <li><a title="my twitter account" href="http://twitter.com/AaronBecker">twitter</a></li>
+                <li><a title="my facebook page" href="http://facebook.com/aaronbecker">facebook</a></li>
+                <li><a title="my github account" href="http://github.com/AaronBecker">github</a></li>
+                <li><a title="my research group" href="http://charm.cs.illinois.edu/people/aaronbecker">research</a></li>
+            </ul>
+
+    </div>
+
+    <div id="content">
+
+    {{ content }}
+
+    <div id="footer">
+        <p>The content of this site is licensed under a <br /><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 license</a>.</p>
+
+    </div>
+    </div>
+
+</body>
+</html>

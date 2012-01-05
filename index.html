@@ -1,0 +1,12 @@
+---
+layout: default
+title: Home
+---
+    <ul class="archive">
+    {% for post in site.posts limit:8 %}
+        <li>
+        {% include post.html %}
+        </li>
+    {% endfor %}
+    </ul>
+    <p><a href="/archive">Archive</a></p>
