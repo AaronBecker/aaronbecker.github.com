@@ -15,3 +15,5 @@ doing something right. Judging from the fact that all the article
 subheads are references to Isaac Asimov stories, I imagine that the
 thing they're doing right is hiring enthusiastic nerds to cover
 technology for them.
+
+[this article]: http://www.economist.com/node/21542402
