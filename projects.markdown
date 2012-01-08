@@ -47,6 +47,16 @@ the compute cycles at national supercomputing facilities. I've worked on enough
 projects involving Charm that listing them all here would be tedious, and I've
 published [a few papers][pubs] on my work as well.
 
+### [ODE Toolkit][ode]
+ODE Toolkit provides a user-friendly interface to a variety of numerical
+solvers for systems of ordinary differential equations. It aims to make
+it easy to explore the behavior of these systems and see how the
+numerical characteristics of different solution techniques affect the
+computed solution. The toolkit has been re-engineered several times over
+the years, and I'm not sure how much of my code is in it anymore, but it
+still looks very similar to the application I remember, and it's still a
+great tool for learning about ODEs.
+
 [Daydreamer]: https://github.com/AaronBecker/daydreamer
 [ccrl]: http://computerchess.org.uk/ccrl/4040/
 [Chess960]: http://en.wikipedia.org/wiki/Chess960
@@ -57,4 +67,4 @@ published [a few papers][pubs] on my work as well.
 [pubs]: http://charm.cs.illinois.edu/people/aaronbecker
 [Mallard Bane]: http://www.cs.hmc.edu/~dodds/projects/RobS04/DuckHunt/index.html
 [Duck Hunt]: http://en.wikipedia.org/wiki/Duck_Hunt
-
+[ode]: http://odetoolkit.hmc.edu/index.html
