@@ -1,0 +1,41 @@
+#!/bin/bash
+set -e
+
+if [ $# -eq 0 ]; then
+    echo "No title given!"
+    return 1
+fi
+
+
+slugify() {
+   echo "$*" | ruby -e 'puts gets.chomp.gsub(/\W+/, "-").downcase'
+}
+
+
+title="$*"
+slug=`slugify "$title"`
+dest="_drafts/$slug.markdown"
+
+LINKED_TEMPLATE="---
+date: `date +"%Y-%m-%d %H:%M %p"`
+title: $title
+source: 
+layout: post
+---
+
+"
+
+main() {
+  create_template_file
+  open_in_vim
+}
+
+create_template_file() {
+  echo "$LINKED_TEMPLATE" > $dest
+}
+
+open_in_vim() {
+  $EDITOR $dest
+}
+
+main
