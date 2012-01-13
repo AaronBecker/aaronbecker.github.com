@@ -23,7 +23,7 @@ pygments: true
 permalink: pretty
 
 # use rdiscount for markdown
-markdown: rdiscount
+# markdown: rdiscount
 
 ## maruku settings
 #maruku:
