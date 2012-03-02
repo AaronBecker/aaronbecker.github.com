@@ -6,8 +6,8 @@ layout: post
 ---
 
 <iframe width="560" height="315"
-src="http://www.youtube.com/embed/C-X1hz_oNyc?rel=0" frameborder="0"
-allowfullscreen></iframe>
+src="http://www.youtube.com/embed/C-X1hz_oNyc?rel=0" frameborder="0">
+</iframe>
 
 I recently saw this trailer for *Beyond the Black Rainbow* posted on
 [The Verge](http://www.theverge.com), and good lord does it look cool.
